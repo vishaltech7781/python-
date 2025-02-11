@@ -1,5 +1,4 @@
-a = 10
-
-b = 30
-
-print ( " remainder of a when it is divded by b ", a % b)
+letter = ''' Dear <|name|>
+you are selected for the job in our company 
+<|date|>'''
+print ( letter.replace("<|name|>","vishal").replace ("<|date|>","25th september 2030"))

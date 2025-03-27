@@ -1,0 +1,6 @@
+f= open("file.txt")
+# data = f.read()
+data1 = f.readlines()
+# print (data)
+print (data1)
+f.close()
